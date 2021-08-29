@@ -1,0 +1,263 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 2% 18% 2% 20%;
+  background: rgb(247, 246, 246);
+}
+.pay{
+  width: 100%;
+  height:100%
+}
+.wrapper {
+   width: auto;
+   background: #fff;
+}
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.block div {
+  flex-basis: 450px;
+  height: 300px;
+}
+.head{
+  background-color: #76cdd8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size:xx-large;
+}
+.head-text{
+  padding: 40px;
+  text-align: left;
+  font-style: italic;
+  line-height: 35px;
+  color: grey;
+}
+.text2 h3{
+  color: #76cdd8;
+  padding: 10px 5px 0 30px;
+}
+.text2 p{
+  font-size: 15px;
+  color: grey;
+  padding: 5px 30px;
+  line-height: 25px
+}
+button{
+  color:#fff;
+  background:#589ca7;
+  border: none;
+  padding: 15px 25px;
+}
+.text2 button{
+  float: right;
+  margin:0 15%;
+}
+.games{
+  background-color: #76cdd8;
+}
+.games img{
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 40px auto 5px;
+  
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.games span{
+  color: #fff;
+  font-size: 10px;
+  margin: 0 100px;
+}
+.img3{
+  background-size: cover;
+}
+.text3 h3{
+  color: gray;
+  padding: 35px 40px 0 45px;
+}
+.text3 p{
+  font-size: 15px;
+  color: grey;
+  padding: 5px 45px;
+  line-height: 25px
+}
+.text3 button{
+  margin:0 0 0 150px;
+}
+section{
+  margin-top: 30px;
+}
+.court{
+  display: flex;
+  background: #fff;
+}
+.court-text{
+  padding: 40px;
+}
+.court-text h3{
+  color:#76cdd8;
+}
+.court-text p{
+  font-size: 15px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.court-text button{
+  float: right;
+}
+.court-img img{
+  width: 300px;
+}
+.price{
+  display: flex;
+}
+.price-pic img{
+  width: 350px;
+}
+.price{
+  background: #fff;
+}
+.plan{
+  width: auto;
+  border: 1px solid #589ca7;
+  margin: 25px;
+}
+.head-plan{
+  background: #589ca7;
+  height: 60px;
+  text-align: center;
+  padding-top: 25px;
+  color: #fff;
+}
+.head-plan h3{
+  margin: 0;
+}
+.plan li{
+  list-style-type: none;
+  font-size: 15px;
+  color: gray;
+  padding: 10px 20px;
+}
+.plan button{
+  margin: 0 0 0 60px;
+}
+
+.form-container{
+  display: block;
+}
+.form-name{
+  background: #76cdd8;
+  height: 150px;
+  color: #fff;
+  padding: 30px 50px 0 100px;
+}
+.form{
+  background: #fff;
+  width: 80%;
+  height: 440px;
+  position:relative;
+  top: -50px;
+  left: 10%; 
+  z-index: 2;
+}
+.form-inputs{
+  display: flex;
+  padding: 70px;
+}
+input, select{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+textarea{
+  padding: 5px;
+  font-size: 15px;
+}
+.form button{
+  position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+.form-end{
+  background: #589ca7;
+  height: 200px;
+  position:relative;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.form-end div{
+  width: 20%;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 15px;
+}
+.col1 p,h4{
+  margin: 0;
+}
+.col1{
+  margin-right: 100px;
+}
+.col2{
+  margin-left: 50px;
+}
+footer{
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+}
+.head-text:hover{
+  color:#76cdd8;
+}
+button:hover{
+  background-color: rgb(118, 205, 216);
+}
+img:hover{
+  transform: scale(1.2);
+}
+.plan:hover{
+  box-shadow: 0 0 0 0.2rem#24d4d4;
+}
+.plan button:hover{
+  background: #24d4d4;
+}
+#special:hover{
+  visibility: visible;
+  transform: scale(1.2);
+  font-size: 10px;
+  box-shadow: 0 0 0 0.2rem#24d4d4;
+}
+input:focus{
+  border-color: #24d4d4; 
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+select:focus{
+  border-color: #24d4d4; 
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+textarea:focus{
+  border-color: #24d4d4; 
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+.form button:hover{
+  background-color: rgb(118, 205, 216);
+}
+.sd{
+  color:#76cdd8;
+  visibility: hidden;
+}
+.sd span{
+  color: red;
+}
